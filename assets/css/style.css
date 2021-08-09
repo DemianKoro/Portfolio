@@ -13,12 +13,14 @@ body {
   background-color: #FFF; }
 
 .dark-mode {
-  background-color: #2c2b2b;
+  background-color: #1b1b1b;
   color: white; }
   .dark-mode .container-btn-mode .btn-mode {
-    border: 2px solid ivory; }
+    border: 1px solid ivory; }
   .dark-mode .container-btn-mode .active {
     background-color: #616155; }
+  .dark-mode .container-btn-mode .btn-mode.moon {
+    background-color: #1b1b1b; }
   .dark-mode .bi {
     color: ivory; }
   .dark-mode .section-title h2 {
@@ -34,17 +36,17 @@ body {
     .dark-mode #hero .social-links a {
       color: ivory; }
   .dark-mode #hero:before {
-    background: rgba(255, 255, 255, 0.25); }
+    background: rgba(27, 27, 27, 0.9); }
   .dark-mode #header {
-    background-color: #2c2b2b;
+    background-color: #1b1b1b;
     border-right: 0px solid #1f1e1e; }
   .dark-mode .portfolio #portfolio-flters li {
     color: ivory; }
   .dark-mode .contact .info {
-    background-color: #2c2b2b;
+    background-color: #1b1b1b;
     color: ivory; }
   .dark-mode .contact .php-email-form {
-    background-color: #2c2b2b;
+    background-color: #1b1b1b;
     color: ivory; }
   .dark-mode .resume .resume-item h5 {
     background: none;
@@ -52,10 +54,12 @@ body {
   .dark-mode .resume .resume-title {
     color: ivory; }
   .dark-mode #footer {
-    background-color: #2c2b2b;
+    background-color: #1b1b1b;
     color: ivory; }
     .dark-mode #footer h3 {
-      font-family: "Architects Daughter", cursive, "Montserrat", sans-serif; }
+      font-family: "Open Sans Condensed", sans-serif; }
+    .dark-mode #footer .social-links a {
+      color: ivory; }
 
 .dark, .dark:focus {
   display: flex;
@@ -89,7 +93,7 @@ a:hover {
   text-decoration: none; }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Architects Daughter", cursive, "Montserrat", sans-serif; }
+  font-family: "Open Sans Condensed", sans-serif; }
 
 .container-btn-mode {
   position: fixed;
@@ -97,13 +101,12 @@ h1, h2, h3, h4, h5, h6 {
   left: 10px;
   cursor: pointer;
   z-index: 9998;
-  font-size: 0;
-  opacity: 75%; }
+  font-size: 0; }
   .container-btn-mode .btn-mode {
     display: inline-block;
     width: 50px;
     height: 33px;
-    border: 2px solid #3f3c3c;
+    border: 1px solid #3f3c3c;
     transition: background-color .5s; }
   .container-btn-mode .btn-mode i {
     display: block;
@@ -116,7 +119,8 @@ h1, h2, h3, h4, h5, h6 {
     border-right: 1px solid transparent; }
   .container-btn-mode .btn-mode.moon {
     border-top-right-radius: 20px;
-    border-bottom-right-radius: 20px; }
+    border-bottom-right-radius: 20px;
+    background-color: ivory; }
   .container-btn-mode .active {
     background-color: #3f3c3c;
     color: #e8ca93 !important; }
@@ -131,7 +135,7 @@ h1, h2, h3, h4, h5, h6 {
   right: 15px;
   bottom: 15px;
   z-index: 996;
-  background: #dd6b41;
+  background: #e8ca93;
   width: 40px;
   height: 40px;
   border-radius: 50px;
@@ -143,7 +147,7 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 0; }
 
 .back-to-top:hover {
-  background: #0678e3;
+  background: #dd6b41;
   color: #fff; }
 
 .back-to-top.active {
@@ -518,7 +522,7 @@ section {
   width: 1px;
   height: 10px;
   transition: .9s;
-  background-color: #dd6b41; }
+  background-color: #e8ca93; }
 
 /*--------------------------------------------------------------
   # Resume
@@ -533,7 +537,7 @@ section {
 .resume .resume-item {
   padding: 0 0 20px 20px;
   margin-top: -2px;
-  border-left: 2px solid #dd6b41;
+  border-left: 2px solid #e8ca93;
   position: relative; }
 
 .resume .resume-item h4 {
@@ -542,7 +546,7 @@ section {
   font-weight: 600;
   text-transform: uppercase;
   font-family: "Poppins", sans-serif;
-  color: #dd6b41;
+  color: #e8ca93;
   margin-bottom: 10px; }
 
 .resume .resume-item h5 {
@@ -571,7 +575,7 @@ section {
   left: -9px;
   top: 0;
   background: #fff;
-  border: 2px solid #dd6b41; }
+  border: 2px solid #e8ca93; }
 
 /*--------------------------------------------------------------
   # Portfolio
@@ -982,7 +986,7 @@ section {
 .contact .php-email-form .error-message {
   display: none;
   color: #fff;
-  background: #ed3c0d;
+  background: #e8ca93;
   text-align: left;
   padding: 15px;
   font-weight: 600; }
@@ -1028,7 +1032,7 @@ section {
   padding: 10px 12px; }
 
 .contact .php-email-form button[type="submit"] {
-  background: #dd6b41;
+  background: #e8ca93;
   border: 0;
   padding: 10px 35px;
   color: #fff;
@@ -1036,7 +1040,7 @@ section {
   border-radius: 50px; }
 
 .contact .php-email-form button[type="submit"]:hover {
-  background: #0678e3; }
+  background: #dfb464; }
 
 @-webkit-keyframes animate-loading {
   0% {
@@ -1064,7 +1068,7 @@ section {
   font-size: 36px;
   font-weight: 700;
   position: relative;
-  font-family: "Architects Daughter", cursive, "Montserrat", sans-serif;
+  font-family: "Open Sans Condensed", sans-serif;
   padding: 0;
   margin: 0 0 15px 0; }
 
@@ -1080,15 +1084,15 @@ section {
 #footer .social-links a {
   font-size: 18px;
   display: inline-block;
-  background: #dd6b41;
-  color: #fff;
+  background: none;
+  color: #1b1b1b;
   line-height: 1;
   padding: 8px 0;
   margin-right: 4px;
   border-radius: 50%;
   text-align: center;
-  width: 36px;
-  height: 36px;
+  width: 40px;
+  height: 40px;
   transition: 0.3s; }
 
 #footer .social-links a:hover {

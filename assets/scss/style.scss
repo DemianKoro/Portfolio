@@ -23,13 +23,18 @@ body {
 
       .btn-mode{
 
-        border:2px solid ivory;
+        border:1px solid ivory;
 
       }
       
       .active{
         background-color:rgb(97, 97, 85) ;
        
+      }
+
+      .btn-mode.moon{
+
+        background-color: $colorDark;
       }
   
     }
@@ -63,7 +68,7 @@ body {
     }
 
     #hero:before {
-      background: rgba(255, 255, 255, 0.25)
+      background: rgba(27, 27, 27, 0.9)
     }
 
     #header {
@@ -110,7 +115,16 @@ body {
       h3 {
         font-family: $fontModel;
       }
+
+      .social-links a {
+    
+        color: ivory;
+    
+      }
+
     }
+
+    
   
   }
   
@@ -161,13 +175,12 @@ body {
     cursor: pointer;
     z-index: 9998;
     font-size:0;
-    opacity: 75%;
-
+    
     .btn-mode{
       display: inline-block;
       width: 50px;
       height: 33px;
-      border:2px solid rgb(63, 60, 60);
+      border:1px solid rgb(63, 60, 60);
       transition: background-color .5s;
     }
     .btn-mode i {
@@ -184,6 +197,7 @@ body {
     .btn-mode.moon{
       border-top-right-radius: 20px;
       border-bottom-right-radius: 20px;
+      background-color: ivory;
     }
     .active{
       background-color:rgb(63, 60, 60);
@@ -203,7 +217,7 @@ body {
     right: 15px;
     bottom: 15px;
     z-index: 996;
-    background: $colorBrand;
+    background: $colorBrand2;
     width: 40px;
     height: 40px;
     border-radius: 50px;
@@ -217,7 +231,7 @@ body {
   }
   
   .back-to-top:hover {
-    background: #0678e3;
+    background: $colorBrand;
     color: #fff;
   }
   
@@ -661,7 +675,7 @@ body {
     width: 1px;
     height: 10px;
     transition: .9s;
-    background-color: $colorBrand;
+    background-color: $colorBrand2;
   }
   
   /*--------------------------------------------------------------
@@ -678,7 +692,7 @@ body {
   .resume .resume-item {
     padding: 0 0 20px 20px;
     margin-top: -2px;
-    border-left: 2px solid $colorBrand;
+    border-left: 2px solid $colorBrand2;
     position: relative;
   }
   
@@ -688,7 +702,7 @@ body {
     font-weight: 600;
     text-transform: uppercase;
     font-family: "Poppins", sans-serif;
-    color: $colorBrand;
+    color: $colorBrand2;
     margin-bottom: 10px;
   }
   
@@ -722,7 +736,7 @@ body {
     left: -9px;
     top: 0;
     background: #fff;
-    border: 2px solid $colorBrand;
+    border: 2px solid $colorBrand2;
   }
   
   /*--------------------------------------------------------------
@@ -1214,7 +1228,7 @@ body {
   .contact .php-email-form .error-message {
     display: none;
     color: #fff;
-    background: #ed3c0d;
+    background: $colorBrand2;
     text-align: left;
     padding: 15px;
     font-weight: 600;
@@ -1268,7 +1282,7 @@ body {
   }
   
   .contact .php-email-form button[type="submit"] {
-    background: $colorBrand;
+    background: $colorBrand2;
     border: 0;
     padding: 10px 35px;
     color: #fff;
@@ -1277,7 +1291,7 @@ body {
   }
   
   .contact .php-email-form button[type="submit"]:hover {
-    background: #0678e3;
+    background: #dfb464;
   }
   
   @-webkit-keyframes animate-loading {
@@ -1332,15 +1346,15 @@ body {
   #footer .social-links a {
     font-size: 18px;
     display: inline-block;
-    background: $colorBrand;
-    color: #fff;
+    background: none;
+    color: $colorDark;
     line-height: 1;
     padding: 8px 0;
     margin-right: 4px;
     border-radius: 50%;
     text-align: center;
-    width: 36px;
-    height: 36px;
+    width: 40px;
+    height: 40px;
     transition: 0.3s;
   }
   
