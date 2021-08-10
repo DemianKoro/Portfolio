@@ -16,7 +16,7 @@ body {
   background-color: #1b1b1b;
   color: white; }
   .dark-mode .container-btn-mode .btn-mode {
-    border: 1px solid ivory; }
+    border: 0px solid ivory; }
   .dark-mode .container-btn-mode .active {
     background-color: #616155; }
   .dark-mode .container-btn-mode .btn-mode.moon {
@@ -106,7 +106,7 @@ h1, h2, h3, h4, h5, h6 {
     display: inline-block;
     width: 50px;
     height: 33px;
-    border: 1px solid #3f3c3c;
+    border: 0px solid #3f3c3c;
     transition: background-color .5s; }
   .container-btn-mode .btn-mode i {
     display: block;
@@ -116,7 +116,7 @@ h1, h2, h3, h4, h5, h6 {
   .container-btn-mode .btn-mode.sun {
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
-    border-right: 1px solid transparent; }
+    border-right: 0px solid transparent; }
   .container-btn-mode .btn-mode.moon {
     border-top-right-radius: 20px;
     border-bottom-right-radius: 20px;
