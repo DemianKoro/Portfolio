@@ -23,6 +23,9 @@ body {
     background-color: #1b1b1b; }
   .dark-mode .bi {
     color: ivory; }
+    .dark-mode .bi .mobile-nav-toggle {
+      color: ivory;
+      background-color: none; }
   .dark-mode .section-title h2 {
     color: ivory; }
   .dark-mode #hero {
@@ -252,7 +255,7 @@ h1, h2, h3, h4, h5, h6 {
   transition: 0.3s;
   font-size: 15px;
   border-radius: 50px;
-  background: #f2f3f5;
+  background: none;
   height: 56px;
   width: 100%;
   overflow: hidden;
@@ -273,16 +276,16 @@ h1, h2, h3, h4, h5, h6 {
     color: #fff; } }
 
 .nav-menu a:hover, .nav-menu .active, .nav-menu .active:focus, .nav-menu li:hover > a {
-  color: #fff;
-  background: #e8ca93;
+  color: none;
+  background: none;
   opacity: 85%; }
 
 .nav-menu a:hover span, .nav-menu .active span, .nav-menu .active:focus span, .nav-menu li:hover > a span {
-  color: #fff; }
+  color: #dd6b41; }
 
 .nav-menu a:hover, .nav-menu li:hover > a {
   width: 100%;
-  color: #fff; }
+  color: #dd6b41; }
 
 .nav-menu a:hover span, .nav-menu li:hover > a span {
   display: block; }
@@ -315,8 +318,8 @@ h1, h2, h3, h4, h5, h6 {
   left: 0; }
 
 .mobile-nav-active .mobile-nav-toggle {
-  color: #fff;
-  background-color: #e8ca93; }
+  color: none;
+  background-color: none; }
 
 /*--------------------------------------------------------------
   # Hero Section

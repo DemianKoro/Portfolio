@@ -19,6 +19,7 @@ body {
   
   .dark-mode {
 
+     
     .container-btn-mode{
 
       .btn-mode{
@@ -39,10 +40,18 @@ body {
   
     }
 
-    .bi {
-      color: ivory;
-    }
+    .bi  {
 
+      color: ivory;
+
+      .mobile-nav-toggle {
+        color: ivory;
+        background-color: none;
+      }
+      
+    }
+  
+   
     background-color: $colorDark;
     color: white;
 
@@ -356,7 +365,7 @@ body {
     transition: 0.3s;
     font-size: 15px;
     border-radius: 50px;
-    background: #f2f3f5;
+    background: none;
     height: 56px;
     width: 100%;
     overflow: hidden;
@@ -383,18 +392,18 @@ body {
   }
   
   .nav-menu a:hover, .nav-menu .active, .nav-menu .active:focus, .nav-menu li:hover > a {
-    color: #fff;
-    background: $colorBrand2;
+    color: none;
+    background: none;
     opacity: 85%;
   }
   
   .nav-menu a:hover span, .nav-menu .active span, .nav-menu .active:focus span, .nav-menu li:hover > a span {
-    color: #fff;
+    color: $colorBrand;
   }
   
   .nav-menu a:hover, .nav-menu li:hover > a {
     width: 100%;
-    color: #fff;
+    color: $colorBrand;
   }
   
   .nav-menu a:hover span, .nav-menu li:hover > a span {
@@ -433,8 +442,8 @@ body {
   }
   
   .mobile-nav-active .mobile-nav-toggle {
-    color: #fff;
-    background-color: $colorBrand2;
+    color: none;
+    background-color: none;
   }
   
   /*--------------------------------------------------------------
