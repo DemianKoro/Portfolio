@@ -8,7 +8,7 @@
 # General
 --------------------------------------------------------------*/
 body {
-  font-family: 'Montserrat';
+  font-family: var(--bs-font-sans-serif);
   color: #272829;
   background-color: #FFF; }
 
@@ -108,7 +108,7 @@ h1, h2, h3, h4, h5, h6 {
   .container-btn-mode .btn-mode {
     display: inline-block;
     width: 50px;
-    height: 33px;
+    height: 31px;
     border: 0px solid #3f3c3c;
     transition: background-color .5s; }
   .container-btn-mode .btn-mode i {
@@ -123,10 +123,10 @@ h1, h2, h3, h4, h5, h6 {
   .container-btn-mode .btn-mode.moon {
     border-top-right-radius: 20px;
     border-bottom-right-radius: 20px;
-    background-color: ivory; }
+    background-color: #eeeedf; }
   .container-btn-mode .active {
     background-color: #3f3c3c;
-    color: #e8ca93 !important; }
+    color: ivory !important; }
 
 /*--------------------------------------------------------------
   # Back to top button
@@ -412,7 +412,7 @@ section {
   display: block;
   width: 120px;
   height: 1px;
-  background: #ddd;
+  /*background: #ddd;*/
   bottom: 1px;
   left: calc(50% - 60px); }
 
@@ -422,7 +422,7 @@ section {
   display: block;
   width: 40px;
   height: 3px;
-  background: #dd6b41;
+  /*background: black;*/
   bottom: 0;
   left: calc(50% - 20px); }
 
@@ -525,7 +525,7 @@ section {
   width: 1px;
   height: 10px;
   transition: .9s;
-  background-color: #e8ca93; }
+  background-color: grey; }
 
 /*--------------------------------------------------------------
   # Resume
@@ -540,7 +540,7 @@ section {
 .resume .resume-item {
   padding: 0 0 20px 20px;
   margin-top: -2px;
-  border-left: 2px solid #e8ca93;
+  /*border-left: 2px solid $colorBrand2;*/
   position: relative; }
 
 .resume .resume-item h4 {
@@ -577,8 +577,8 @@ section {
   border-radius: 50px;
   left: -9px;
   top: 0;
-  background: #fff;
-  border: 2px solid #e8ca93; }
+  /*background: #fff;
+    border: 2px solid $colorBrand2;*/ }
 
 /*--------------------------------------------------------------
   # Portfolio
